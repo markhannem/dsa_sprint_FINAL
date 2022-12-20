@@ -1,0 +1,141 @@
+.header {
+  margin-bottom: 50px;
+  background-color: #9fedd7;
+  color: rgb(49, 49, 49);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-bottom: 1px solid #737374;
+}
+
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+}
+
+.headerContainer.listType {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 0px 0px;
+}
+
+.headerList {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.headerItems {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerItems.active {
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.headerDesc {
+  margin: 20px 0px;
+}
+
+.headerBtn {
+  border: #026670 solid;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: 500;
+  color: white;
+  background-color: #e85a4f;
+  cursor: pointer;
+}
+
+.headerBtnAlt {
+  border: none;
+  padding: 10px;
+  font-weight: 500;
+  color: white;
+  background-color: #e85a4f;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.headerSearch {
+  height: 50px;
+  background-color: white;
+  border: 3px solid #737374;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+
+.headerSearchText {
+  color: #737374;
+  cursor: pointer;
+}
+/* ---------------------------------------------- */
+/* CALENDER ------------------------------------- */
+
+.date {
+  position: absolute;
+  top: 50px;
+  border: 1px solid #737374;
+  z-index: 10;
+}
+/* ---------------------------------------------- */
+
+/* OPTIONS -------------------------------------- */
+
+.options {
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: #737374;
+  border-radius: 5px;
+  box-shadow: 9px 8px 11px 3px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 9px 8px 11px 3px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 9px 8px 11px 3px rgba(0, 0, 0, 0.74);
+  z-index: 10;
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.counterContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: black;
+}
+
+.optionBtn {
+  width: 35px;
+  height: 35px;
+  border-radius: 3px;
+  color: white;
+  background-color: #fc4a1a;
+  border: solid 1px #edeae5;
+  cursor: pointer;
+}

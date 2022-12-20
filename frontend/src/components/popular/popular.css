@@ -1,0 +1,46 @@
+.popular {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.pItem {
+  flex: 1;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pImg {
+  width: 100%;
+}
+
+.pName {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.pCity {
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.pPrice {
+  font-weight: 500;
+}
+
+.pRating > button {
+  background-color: #e85a4f;
+  color: white;
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.pRating > span {
+  font-size: 14px;
+}
